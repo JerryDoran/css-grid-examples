@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.nav__green {
+  background: seagreen;
+  color: #fff;
+  padding: 20px;
+}
+.nav__items {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.nav__brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 786px) {
+  .nav {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+  }
+}
