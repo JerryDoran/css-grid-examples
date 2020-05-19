@@ -10,26 +10,26 @@ body {
   background: rosybrown;
   color: #fff;
   padding: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .green {
   background: seagreen;
   color: #fff;
   padding: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .orange {
   background: rgb(160, 105, 2);
   color: #fff;
   padding: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .blue {
   background: rgb(52, 115, 231);
   color: #fff;
   padding: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }

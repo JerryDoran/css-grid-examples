@@ -1,0 +1,34 @@
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    'header'
+    'sidebar'
+    'main'
+    'footer';
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+@media (min-width: 786px) {
+  .grid-container {
+    grid-template-areas:
+      'header header header'
+      'sidebar main main'
+      'footer footer footer';
+  }
+}

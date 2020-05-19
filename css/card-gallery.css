@@ -1,0 +1,33 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  padding-inline-start: none;
+  list-style: none;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 20px;
+  align-items: center;
+  box-shadow: 1px 1px 4px #ccc;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: all 250ms;
+}
+
+.card__image > img {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card__title {
+  margin-bottom: 0;
+}
+
+.card__details-house {
+  margin-top: 5px;
+}

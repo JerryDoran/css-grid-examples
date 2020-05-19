@@ -1,0 +1,24 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.main {
+  grid-column: span 3;
+}
+
+.secondary {
+  grid-column: span 2;
+}
+
+@media (max-width: 786px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  /* This means take any element inside the dashboard div */
+  .dashboard > * {
+    grid-column: span 1;
+  }
+}
